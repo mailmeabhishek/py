@@ -8,3 +8,8 @@ name = 'Rana'
 
 message = '{},{}.Welcome!'.format(greeting,name)
 print(message)
+
+message1 = f'{greeting},{name}. Welcome!'
+print(message1)
+
+# print(dir(name)) this will show all the methods which we can perform on this.
